@@ -565,9 +565,11 @@ img {
   background-color: #fff;
 }
 .close-btn {
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
   position: absolute;
-  padding-top: 6px;
-  padding-right: 6px;
+  padding: 6px;
   top: 8px;
   right: 8px;
   width: 30px;
@@ -609,9 +611,12 @@ img {
   font-size: 12px;
   line-height: 1.166;
   letter-spacing: 0.01em;
-
   color: #757575;
 }
+.modal-form-field:last-child {
+  margin-bottom: 0px;
+}
+
 .modal-form-input {
   width: 100%;
   height: 40px;
@@ -713,6 +718,7 @@ img {
   cursor: pointer;
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 0px;
 }
 
 /*============= END BACKDROP========*/
